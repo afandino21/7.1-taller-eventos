@@ -10,16 +10,11 @@
 
 <body>
     <div id="divV">
-        <button type="button" onclick="saludar()">Saludar</button>
+        <button id="boton" type="button">Saludar</button>
     </div>
 
-    <script>
-        function saludar() {
-            alert("Hola!")
-        };
-    </script>
     <!-- El script va aqui al final del body para que se corra despues de que el contenido de la pagina se cargo, sino da error. Otra
-    opcion seria agregar un primer addEventListener con la opcion 'DOMContentLoaded'-->
+    opcion seria agregar un primer addEventListener con la opcion 'DOMContentLoaded' o usar el atributo "defer" en la etiqueta de script-->
     <script src="eventos.js"></script>
 </body>
 
